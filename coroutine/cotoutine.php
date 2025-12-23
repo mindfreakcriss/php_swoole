@@ -32,3 +32,5 @@ run(function () {
 });
 
 echo 'use ' . (microtime(true) - $s) . ' s';
+
+

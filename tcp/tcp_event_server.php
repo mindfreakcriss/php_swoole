@@ -6,7 +6,7 @@ $server->set([
     'task_worker_num' => 4,
 ]);
 
-# 其实时间的参数需要和文档对应并记住
+# 其实事件的参数需要和文档对应并记住
 # https://wiki.swoole.com/#/server/events?id=onreceive
 
 #开始

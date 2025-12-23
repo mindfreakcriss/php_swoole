@@ -9,7 +9,7 @@ $server->set([
 ]);
 
 
-//监听连接进入事件,这个 $fd 由系统自动分配，可以直接使用，进程ID
+//监听连接进入事件,这个 $fd 由系统自动分配，可以直接使用，客户端标识符
 $server->on("Connect", function($server, $fd) {
     echo "Client: Connect." . $fd . "\n";
 });
